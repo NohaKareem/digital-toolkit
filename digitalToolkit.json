@@ -1,0 +1,77 @@
+[
+    {
+        "Category":"Food", 
+        "Resources":[
+            {
+                "name":"Mind Over Munch", 
+                "link":"https://www.youtube.com/user/MindOverMunch",
+                "notes":"Videos on healthy recipes& meal-planning"
+            },
+            {
+                "name":"Good and Cheap", 
+                "link":"https://www.leannebrown.com/",
+                "notes":"Resource for budget-friendly nutritious meals"
+            },
+            {
+                "name":"Chronometer", 
+                "link":"https://cronometer.com/",
+                "notes":"A tool to track your meals and nutrition, with interactive visualized analytics"
+            }
+        ]
+    }, 
+    {
+        "Category":"Productivity", 
+        "Resources":[
+            {
+                "name":"Dropbox paper", 
+                "link":"https://www.dropbox.com/paper",
+                "notes":"A simple yet robust note-taking tool that you can organize using folders on dropbox. Offers code formatting, checklists, timelines, embedded links and more."
+            },
+            {
+                "name":"Thomas Frank", 
+                "link":"https://www.youtube.com/user/electrickeye91",
+                "notes":"This YouTube channel is a rich resource for productivity and study tips and tools."
+            },
+            {
+                "name":"Notion", 
+                "link":"https://www.notion.so/",
+                "notes":"A highly-customizable note-taking and organiztional app. It's a place to take notes, log information, plan tasks, setup schedules and more."
+            },
+            {
+                "name":"Trello", 
+                "link":"https://trello.com//",
+                "notes":"Like pinterest for your to-dos! A place to store boards of lists and cards, akin to an office sticky-note wall or corkboard."
+            }, 
+            {
+                "name":"Timer Tab", 
+                "link":"http://www.timer-tab.com/",
+                "notes": "A minmal all-in-one timer, stopwatch and alarmclock page"
+            }
+        ]
+    },
+    {
+        "Category":"Education", 
+        "Resources":[
+            {
+                "name":"Degreed", 
+                "link":"https://degreed.com/",
+                "notes": "A tool to help you track and share your learning journeys"
+            },
+            {
+                "name":"Anki", 
+                "link":"https://apps.ankiweb.net/",
+                "notes": "A flashcard program based on spaced repitition to help with memorization. Handy for language learning!"
+            },
+            {
+                "name":"Libby", 
+                "link":"https://meet.libbyapp.com/",
+                "notes": "A library app that offers access to your local library's digital and audio books"
+            },
+            {
+                "name":"Talks at Google", 
+                "link":"https://www.youtube.com/user/AtGoogleTalks/featured",
+                "notes": "Talks held at Google's global headquarters. Talks feature interesting conversations with authors, directors and more. "
+            }
+        ]
+    }
+]

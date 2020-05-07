@@ -1,0 +1,9 @@
+<footer>
+    <% for (var i = 0; i < digitalToolkitRefs.length; i++) {  %>
+        <% var category = digitalToolkitRefs[i].Category %>
+        <a href="#" class="<%= category.toLowerCase() %>" >
+            <div class="toolkitCategory <%= category.toLowerCase() %>">
+            <p><%= category %></p>
+        </div></a>
+        <% } %>
+    </footer>

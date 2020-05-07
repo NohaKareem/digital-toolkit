@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet"> 
+    <link rel='stylesheet' href='/stylesheets/reset.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div id="pageCon">
+        <div id="container">
+            <div id="circlesCon">
+                <div class="circle education"></div>
+                <div class="circle productivity"></div>
+                <a href="/api" id="apiLink"><div class="circle" id="apiLinkButton">API</div></a> 
+            </div>
+            <div id="infoLayer" class="app">
+                <h1><%= title %></h1>
+
+                <!-- initialize display to first category -->
+                <% var currCategory = 0 %>
+               
+                <div id="resourceInfoGrid">
+                    <% for (var i = 0; i < digitalToolkitRefs.length; i++) {  %>
+                        <!-- set resource href link, initialize class to current category's class (to lower case, for scss naming convention consistency) -->
+                        <a href="<%= digitalToolkitRefs[currCategory].Resources[i].link %>" 
+                            class="resource_name <%= digitalToolkitRefs[currCategory].Category.toLowerCase() %>"><%= digitalToolkitRefs[currCategory].Resources[i].name %>
+                        </a>
+                        <p class="resource_notes"><%= digitalToolkitRefs[currCategory].Resources[i].notes %></p>
+                    <% } %>
+                </div>
+            </div>
+        </div>
+        <% include partials/footer_menu %>
+    </div>
+    <script src="/javascripts/main.js"></script>
+</body>
+</html>
